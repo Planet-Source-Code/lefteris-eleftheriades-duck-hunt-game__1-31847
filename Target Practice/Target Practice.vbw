@@ -1,0 +1,17 @@
+Form1 = -21, 9, 415, 360, Z, 22, 22, 420, 379, C
+LoadingFrm = 110, 110, 515, 458, C, 46, 115, 331, 232, C
+Caracters = 0, 0, 0, 0, C
+DigitalCounter = 132, 132, 624, 417, C
+Resize = 154, 154, 559, 502, C
+DigCounter = 0, 0, 0, 0, C
+CaracterObject = 110, 110, 602, 395, C
+SoundFunctions = 0, 0, 402, 348, C
+PaintFunctions = 132, 132, 537, 480, C
+Mouse = 22, 22, 427, 370, C
+Help = 110, 110, 515, 458, C, 96, 68, 501, 416, C
+PauseFrm = 83, 30, 488, 378, C, 119, 33, 524, 381, C
+FormShaper = 44, 44, 449, 392, C
+VariablesLinkingForms = 154, 154, 559, 502, C
+AboutFrm = 66, 66, 468, 414, C, 0, 0, 402, 348, C
+VoteFrm = 54, 140, 456, 489, C, 0, 0, 287, 228, C
+Radio = 66, 66, 465, 414, C, 110, 110, 512, 458, C

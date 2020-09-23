@@ -1,0 +1,49 @@
+This is The Hardest part. Try to understand it
+To use BitBlt to draw transparent images,
+you need 2 pictures.
+1) The image you want to draw with BLACK it's 
+   transparent color
+2) The mask of that image white is the transparent color
+   and Black as the solid color
+
+Destination.cls 'Clear the destination image
+Bitblt Destination.hdc, Mask.hdc, SRCAND 
+'Copies the Black color only of the mask
+Bitblt Destination.hdc, Sprite.hdc, SRCINVERT
+'Copies the sprite
+Destination.Refresh 'Refresh the destination Image
+'So you may see the sprite
+
+=>You now have a transparent sprite.
+
+AlphaBlending with transparent sprites
+You need:
+1) The image you want to draw with BLACK it's 
+   transparent color
+2) The mask of that image white is the transparent color
+   and Black as the solid color
+3) The negative of that mask
+4) An emtpy picturebox (buffer)
+
+ GhostBuffer.Cls 'clear the buffer
+ 'Get the background image and put it to the buffer
+ BitBlt GhostBuffer.hdc, 0, 0, 25, 24, Me.hdc, XX&, YY&,  SRCCOPY
+'Blend the Caracter image with the background
+ Alpha_Blend GhostBuffer.hdc, GhostSpr.hdc, 0, 0, 0, 0, 26, 25, 26, 25
+
+ Now, we have:
+ The buffer with a solid image of the mixture of the caracter with the  background.
+ 
+ To make it transparant the part we want to be transparant must be black.
+ So, we put the invert mask on.
+ BitBlt GhostBuffer.hdc, 0, 0, 25, 24, GhostIMask.hdc, 0, 0, SRCAND
+ We now have our blended ghost with black arround it
+ GhostBuffer.Refresh
+ 'Draw the mask onto the form
+ BitBlt Me.hdc, XX&, YY&, 25, 24, GhostMask.hdc, 0, 0, SRCAND
+ 'invert buffer to the form
+ BitBlt Me.hdc, XX&, YY&, 25, 24, GhostBuffer.hdc, 0, 0, SRCINVERT
+
+'The ghost is on the form!!!!!
+
+Get it??

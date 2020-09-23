@@ -1,0 +1,25 @@
+Target Shooter
+==============
+This game is made for educational purposes
+I am trying to proove that game programming
+doesn't require direct X.
+
+I am analizing all the API i know to Draw,Blend,Strech 
+an image.
+
+Objects using bitblt:
+	Target, Duck, Worm
+
+Objects using transparentblt, Bitblt and AlphaBlend
+        Ghosts
+
+Objects using strechblt
+         All background images, to adjust at 800 X 600
+
+Objects using mciplay functions
+         Background Sounds, Gun sounds 
+
+Visual Basic is also able to create 3D games without 3DSMax.
+Try www.ur.co.uk for these examples
+
+
