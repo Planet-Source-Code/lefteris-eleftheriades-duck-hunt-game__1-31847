@@ -1,0 +1,83 @@
+Target Shooter
+——————————————
+
+Keys:
+—————
+  1-4 : Weapons
+  S   : Sound On/Off
+  M   : Music On/Off
+  R   : Radar Visible/Invisible
+  F3  : Help
+  F12 : Cheats
+
+Game Objective:
+———————————————
+  You are a hunter in trainning.
+  Starting your quest for the Olympics
+  held in Greece, you start from the amazon
+  forest and move accross the earth in
+  exotic scenaries, until you get to the
+  Olympic statium.
+
+  On your way you find many challenges
+  and those are described in the 
+  "Game Enemies" seccion of this help
+  documention.
+
+  Having only one shotgun and no ammound 
+  of money, you accept all the challenges
+  from people, to shot these enemies so that
+  you get money to buy new types of guns and
+  bullets.
+
+  Good Luck on your Quest.
+
+Game Enemies
+————————————
+  Target
+    You are in your trainning camp and your
+    coach instructs you to do some practiceing
+    befoure you can go to the olympics.
+    Your coach gives you money for the quest.
+  Duck
+    As you go along your quest, you get hungry.
+    You decide to kill several ducks to have
+    them for lunch as you go on to your quest.
+    You'll also sell some ducks on your path.
+  Worm
+    In Russia, people are attacked by enemy
+    worms and they beg for your help.
+    You decide to accept because you need money
+    they pay a large ammound of dublins.
+  Ghost
+    People near the carpathian mountains are
+    scared to death because they are attacked
+    by ghosts. You decide to help them too.
+    It'll be fun. You are also get payed
+    and you are happy as you want to buy a
+    new machin gun.
+  U.F.O.
+    In the island of cyprus you get an e-mail    
+    informing you that in egypt they are attacked
+    by U.F.Os. Your friend in Cyprus gives you a
+    LASER Gun in order to face their supperior
+    tecnology.
+  Tin
+    Back in Cyprus where you return the LASER gun
+    A man there challenges you on a bet.
+    Who will keep a tin flying onto the air more.
+    You accept because you need the money to buy 
+    bullets and a new gun.
+
+Cheats
+——————
+Jump to level:
+  PRACTICE MAKES PERFECT = Target
+  DUCK TALE              = Duck
+  TOTAL WORMAGE          = Worm
+  BOO                    = Ghost
+  UFO                    = U.F.O
+ 
+ 
+  AUTO-PILOT             = Mouse moves by it self.
+  BULLET STOCK           = + 25 Bullets.
